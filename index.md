@@ -4,10 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="Bootstrap, Parallax, Template, Registration, Landing">
+    <meta name="keywords" content="Rede, Tela, Proteção, Estillus, Sacada, Protecao, Telas, Redes">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Grayrids">
-    <title>Estillus - Redes e Proteção</title>
+    <title>Estillus .:. Redes de Proteção</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
