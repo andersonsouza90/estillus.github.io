@@ -381,7 +381,7 @@ button:focus {
   display: none;
   position: fixed;
   bottom: 18px;
-  right: 15px;
+  left: 15px;
 }
 
 .back-to-top i {
@@ -404,7 +404,7 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  background: url(../img/hero-area.jpg) fixed no-repeat;
+  background: url(../img/tela.png) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -433,7 +433,7 @@ button:focus {
 }
 
 #hero-area .contents p {
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
   font-weight: 400;
   line-height: 30px;
@@ -562,6 +562,10 @@ button:focus {
   display: none;
 }
 
+.navbar-brand img {
+    width: 85%;
+  }
+
 @media screen and (max-width: 768px) {
   .navbar-header {
     width: 100%;
@@ -571,9 +575,10 @@ button:focus {
     padding: 15px;
     top: 0;
     width: 65%;
+    margin-top: -23px;
   }
   .navbar-brand img {
-    width: 70%;
+    width: 55%;
   }
   #mobile-menu {
     display: none;
