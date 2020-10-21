@@ -543,12 +543,33 @@ button:focus {
   background: #61D2B4;
 }
 
+.btnOrcamentoRapido{
+  background-color: #25d366;
+    width: 270px;
+    height: 60px;
+    margin-left: 36%;
+    margin-top: -110px;
+    border-radius: 30px;
+}
+
+.btnOrcamentoRapido img{
+  width: 40px;
+  margin-left: -40px;
+}
+
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-main li a.nav-link {
     padding-top: 18px;
   }
+
+  .btnOrcamentoRapido{
+    margin-left: 27%;
+  }
+
 }
+
+  
 
 .navbar-toggler {
   display: none;
@@ -565,6 +586,8 @@ button:focus {
 .navbar-brand img {
     width: 85%;
   }
+
+
 
 @media screen and (max-width: 768px) {
   .navbar-header {
@@ -598,6 +621,46 @@ button:focus {
     background: #f8f9fa;
     color: #61D2B4;
   }
+
+  .btnOrcamentoRapido{
+    margin-left: 10%;
+  }
+
+
+}
+
+@media screen and (max-width: 737px){
+  .btnOrcamentoRapido {
+      margin-left: 25%;
+  }
+  .navbar-brand img {
+    width: 30%;
+  }
+
+}
+
+@media screen and (max-width: 415px){
+  .btnOrcamentoRapido {
+      margin-left: 15%;
+  }
+
+}
+
+@media screen and (max-width: 376px){
+  .btnOrcamentoRapido {
+      margin-left: 10%;
+  }
+   .navbar-brand img {
+    width: 55%;
+  }
+
+}
+
+@media screen and (max-width: 320px){
+  .btnOrcamentoRapido {
+      margin-left: 4%;
+  }
+
 }
 
 /* ==========================================================================
